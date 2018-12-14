@@ -1,7 +1,5 @@
 ## Template for HTML development
 
-Based on https://github.com/alexanderrizhikoff/dev-template-for-html
-
 ## What's include
 #### Jade template engine
 [jade-lang.com](http://jade-lang.com/)
