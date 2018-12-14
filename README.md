@@ -1,17 +1,17 @@
 ## Template for HTML development
 
+Based on https://github.com/alexanderrizhikoff/dev-template-for-html
+
 ## What's include
 #### Jade template engine
 [jade-lang.com](http://jade-lang.com/)
 #### Sass
 [sass-lang.com](http://sass-lang.com/)
-#### Coffeescript
-[coffeescript.org](http://coffeescript.org/)
 
 ## Install
 
 ```
-git clone https://github.com/alexanderrizhikoff/dev-template-for-html.git
+https://github.com/emagweb/dev-template-for-html.git 
 ```
 
 or
@@ -22,7 +22,7 @@ git clone https://github.com/alexanderrizhikoff/dev-template-for-html.git [PROJE
 
 ###### Example
 ```
-git clone https://github.com/alexanderrizhikoff/dev-template-for-html.git store-app
+git clone https://github.com/alexanderrizhikoff/dev-template-for-html.git my-app
 ```
 
 
@@ -40,7 +40,7 @@ sudo npm install -g gulp
 Go to [PROJECT_NAME] folder:
 
 ```
-cd store-app
+cd my-app
 npm install
 gulp
 ```
