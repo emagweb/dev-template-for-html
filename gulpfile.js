@@ -15,7 +15,10 @@ gulp.task("sass", function () {
   return gulp.src("src/sass/*.*")
     .pipe(sass())
     .pipe(autoprefixer())
-    .pipe(cssbeautify())
+    .pipe(cssbeautify({
+      indent: '  ',
+      autosemicolon: true
+    }))
     .pipe(gulp.dest("dist/css"))
     .pipe(browserSync.reload({
       stream: true
